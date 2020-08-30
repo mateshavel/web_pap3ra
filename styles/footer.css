@@ -1,0 +1,137 @@
+.footer-top {
+    text-align: center;
+    background-color: #FFF7F8;
+    color: #D7172F;
+    padding: 8px;
+}
+
+.footer-top:hover {
+    background-color: #D7172F;
+    color: #FFFFFF;
+}
+
+.footer-top p {
+    font-size: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.footer-content {
+    margin-top: 30px;
+}
+
+.footer-content ul {
+    font-weight: 600;
+    padding-left: 0;
+}
+
+.footer-content ul.lang-select__list{
+    padding: 8px 16px;
+}
+
+.footer-content ul li {
+    list-style: none;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.footer-content .text-copy {
+    font-size: 12px;
+    color: #747474;
+    position: absolute;
+    margin-top: 17px;
+}
+
+.footer-social{
+    margin-bottom: 8px;
+}
+
+.footer-twemoji-lang{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.socil-fb {
+    display: inline-block;
+    position: relative;
+    width: 39px;
+    height: 39px;
+    margin-right: 15px;
+    background-color: #3B5998;
+    border-radius: 2px 2px 8px 2px;
+}
+
+.socil-fb svg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.social-instagram {
+    display: inline-block;
+    position: relative;
+    width: 39px;
+    height: 39px;
+    margin-right: 15px;
+    background-color: #F00075;
+    border-radius: 2px 2px 8px 2px;
+    padding: 10px 6px 12px 6px;
+}
+
+.social-instagram svg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.social-youtube {
+    display: inline-block;
+    position: relative;
+    width: 39px;
+    height: 39px;
+    margin-right: 15px;
+    background-color: #CD201F;
+    border-radius: 2px 2px 8px 2px;
+    padding: 10px 5px 12px 7px;
+}
+
+.social-youtube svg {
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+
+.social-in {
+    display: inline-block;
+    position: relative;
+    width: 39px;
+    height: 39px;
+    background-color: #0077B5;
+    border-radius: 2px 2px 8px 2px;
+    padding: 10px 10px 12px 11px;
+}
+
+.social-in svg {
+    position: absolute;
+    top: 9px;
+    left: 11px;
+}
+
+@media (min-width: 992px) {
+    .footer-content .text-copy {
+        font-size: 12px;
+        color: #747474;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .footer-content ul {
+        padding-left: 40px;
+    }
+
+    .footer-twemoji-lang,
+    .footer-social{
+        margin-top: 0px;
+    }
+}
+

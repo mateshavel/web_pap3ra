@@ -1,0 +1,475 @@
+@import "top-navigation.css";
+@import "footer.css";
+@import "forms.css";
+@import "sections.css";
+@import "modals.css";
+@import "font-awesome.css";
+@import "header.css";
+@import "twemoji.css";
+
+
+body {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html {
+    /*scroll-behavior: smooth;*/
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+del {
+    color: #B1B3B3;
+    margin-right: 3px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+.truncate {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-content {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 40px;*/
+}
+
+.container-600 {
+    max-width: 600px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.container-660 {
+    max-width: 660px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-1100 {
+    max-width: 1100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-1920 {
+    max-width: 1920px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-max-1280 {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+/*width*/
+.mw-150 {
+    max-width: 150px;
+}
+
+.mw-190 {
+    max-width: 190px;
+}
+
+.mw-285 {
+    max-width: 285px;
+}
+
+.mw-390 {
+    max-width: 390px;
+}
+
+/*border*/
+.border-bottom {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.border-top {
+    border-top: 1px solid #D1D1D1;
+}
+
+/*color*/
+.black {
+    color: #000000;
+}
+
+.yellow {
+    color: #FFE300;
+}
+
+.blue {
+    color: #97E0FF;
+}
+
+.orange {
+    color: #FFBB00;
+}
+
+.red {
+    color: #D7172F;
+}
+
+.green {
+    color: #BAEE46;
+}
+
+.purple {
+    color: #AAB4FF;
+}
+
+.light-gray {
+    color: #919191;
+}
+
+.dark-gray {
+    color: #575757;
+}
+
+/*background color*/
+.bg-light-gray {
+    background-color: #F0F0F0;
+}
+
+.bg-dark-grey {
+    background-color: #d9d9d9;
+}
+
+.bg-yellow {
+    background-color: #FFE300;
+}
+
+.bg-light-yellow {
+    background-color: #FFF17F;
+}
+
+.bg-blue {
+    background-color: #97E0FF;
+}
+
+.bg-orange {
+    background-color: #FFBB00;
+}
+
+.bg-red {
+    background-color: #D7172F;
+}
+
+.bg-light-red {
+    background-color: #FBE7E9;
+}
+
+.bg-green {
+    background-color: #BAEE46;
+}
+
+.bg-purple {
+    background-color: #AAB4FF;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-pink {
+    background-color: #FBE7E9;
+}
+
+.bg-hover-yellow:hover {
+    background-color: #FFC800;
+}
+
+.bg-hover-blue:hover {
+    background-color: #96CEFF;
+}
+
+.bg-hover-orange:hover {
+    background-color: #FF9D00;
+}
+
+.bg-hover-purple:hover {
+    background-color: #B4AAFF;
+}
+
+.bg-hover-green:hover {
+    background-color: #7AEE46;
+}
+
+.bg-hover-red:hover {
+    background-color: #B50F24;
+}
+
+/*padding*/
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pt40 {
+    padding-top: 40px;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.pl3 {
+    padding-left: 3px!important;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.pl15 {
+    padding-left: 15px !important;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+.pr3 {
+    padding-right: 3px!important;
+}
+
+.pr10{
+    padding-right: 10px;
+}
+
+.pr15 {
+    padding-right: 15px !important;
+}
+
+.pr20 {
+    padding-right: 20px;
+}
+
+.pr27 {
+    padding-right: 27px;
+}
+
+.pb40 {
+    padding-bottom: 40px;
+}
+
+/*margin*/
+.mt10 {
+    margin-top: 10px;
+}
+
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mt60 {
+    margin-top: 60px;
+}
+
+.mt65 {
+    margin-top: 65px;
+}
+
+.mt70 {
+    margin-top: 70px;
+}
+
+.mt88 {
+    margin-top: 88px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml6 {
+    margin-left: 6px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml14 {
+    margin-left: 14px;
+}
+
+.ml15 {
+    margin-left: 15px;
+}
+
+.ml25 {
+    margin-right: 30px;
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.mr30 {
+    margin-right: 30px;
+}
+
+.mr35 {
+    margin-right: 35px;
+}
+
+/*text*/
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.text-s-shadow {
+    font-size: 13px;
+    color: #919191;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-44 {
+    font-size: 44px;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.lh-44 {
+    line-height: 44px;
+}
+
+.word-break {
+    word-break: break-word;
+}
+
+/**/
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.ul-main{
+    font-weight: 600!important;
+}
